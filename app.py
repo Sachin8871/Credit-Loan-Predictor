@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pickle
 import pandas as pd
-import scikit-learn
+import sklearn
 # Page Configurationst.set_page_config(page_title="Credit Loan Prediction", page_icon=":money_with_wings:", layout="wide")
 
 # Custom Background
