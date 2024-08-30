@@ -2,10 +2,8 @@ import numpy as np
 import streamlit as st
 import pickle
 import pandas as pd
-import xgboost
-
-# Page Configuration
-st.set_page_config(page_title="Credit Loan Prediction", page_icon=":money_with_wings:", layout="wide")
+import xgboost==2.1.1
+# Page Configurationst.set_page_config(page_title="Credit Loan Prediction", page_icon=":money_with_wings:", layout="wide")
 
 # Custom Background
 page_bg_color = '''
