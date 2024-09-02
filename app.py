@@ -19,7 +19,7 @@ st.markdown(page_bg_color, unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: blue;'>Credit Loan Prediction</h1>", unsafe_allow_html=True)
 
 # Load Model
-with open('Models/model_XGB.pkl', 'rb') as file:
+with open('Models/model_XGB23.pkl', 'rb') as file:
     model = pickle.load(file)
 
 def label_input(input):
